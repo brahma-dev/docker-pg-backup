@@ -62,7 +62,7 @@ ORDER BY table_schema,table_name;"))
 }
 
 # Env variables
-MYDATE=$(date +%d-%B-%Y)
+MYDATE=$(date +%F-%H-%M-%S)
 MONTH=$(date +%B)
 YEAR=$(date +%Y)
 MYBASEDIR=/${BUCKET}
